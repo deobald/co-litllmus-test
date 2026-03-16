@@ -1,2 +1,3 @@
 [tools]
 ghc = "latest"
+go = "latest"
