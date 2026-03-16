@@ -1,0 +1,3 @@
+// receive from non-channel should error
+// ERROR: Cannot receive from a non-channel: 42
+var x = <- 42;

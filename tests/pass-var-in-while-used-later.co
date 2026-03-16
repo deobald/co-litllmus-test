@@ -1,0 +1,7 @@
+// Variable defined in while body is visible in enclosing scope
+var i = 0;
+while (i < 1) {
+  var result = 42;
+  i = i + 1;
+}
+print(result); // 42

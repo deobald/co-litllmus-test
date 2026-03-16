@@ -1,0 +1,7 @@
+// Function and lambda calls with correct argument counts
+function exact(a, b) { return a + b; }
+print(exact(1, 2)); // 3
+function noParams() { return 1; }
+print(noParams()); // 1
+var lam = function (a, b) { return a + b; };
+print(lam(1, 2)); // 3

@@ -1,0 +1,17 @@
+// Variables must be defined with a value; all value types
+var vNull = null;
+var vTrue = true;
+var vFalse = false;
+var vStr = "hello";
+var vNum = 42;
+var vExpr = 1 + 2;
+var vCall = print("test"); // test
+var vLambda = function () { return 1; };
+print(vNull);   // null
+print(vTrue);   // true
+print(vFalse);  // false
+print(vStr);    // hello
+print(vNum);    // 42
+print(vExpr);   // 3
+print(vCall);   // null
+print(vLambda); // function <lambda>

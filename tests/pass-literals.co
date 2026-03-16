@@ -1,0 +1,7 @@
+// All literal types as expressions: null, bool, string, number
+print(null); // null
+print(true); // true
+print(false); // false
+print("str"); // str
+print(42); // 42
+print(-1); // -1

@@ -1,0 +1,3 @@
+// var not in scope inside IIFE body since var is added after expr analysis
+// ERROR: Unknown variable: x
+var x = function () { return x; }();

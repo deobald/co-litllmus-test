@@ -1,0 +1,3 @@
+// using reserved word 'while' as variable name
+// ERROR: Reserved word cannot be used as identifier: while
+var while = 1;

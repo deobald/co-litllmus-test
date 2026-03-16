@@ -1,0 +1,3 @@
+// using reserved word 'return' as variable name
+// ERROR: Reserved word cannot be used as identifier: return
+var return = 1;

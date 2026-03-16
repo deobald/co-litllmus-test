@@ -1,0 +1,8 @@
+// redefine outer variable in deeply nested function scope
+// ERROR: Variable already defined: deep
+var deep = 1;
+function outer() {
+  function inner() { var deep = 2; }
+  inner();
+}
+outer();

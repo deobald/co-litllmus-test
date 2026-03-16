@@ -1,0 +1,3 @@
+// multiply with non-numbers should error
+// ERROR: Cannot multiply non-numbers: true and 2
+true * 2;

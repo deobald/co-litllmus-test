@@ -1,0 +1,4 @@
+// calling a non-function should error
+// ERROR: Cannot call a non-function: Variable "x" is 42
+var x = 42;
+x();

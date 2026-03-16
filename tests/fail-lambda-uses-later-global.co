@@ -1,0 +1,5 @@
+// lambda body references global variable defined after the lambda
+// ERROR: Unknown variable: laterGlobal
+var f = function () { return laterGlobal; };
+var laterGlobal = 1;
+f();

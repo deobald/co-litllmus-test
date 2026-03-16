@@ -1,0 +1,5 @@
+// redefine variable inside while block (while is not a new scope)
+// ERROR: Variable already defined: x
+var x = 1;
+var y = 0;
+while (y < 1) { var x = 2; y = y + 1; }

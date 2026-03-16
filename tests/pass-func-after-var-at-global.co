@@ -1,0 +1,7 @@
+// function and var definitions interleaved at global scope
+var x = 1;
+function f() { return x; }
+var y = 2;
+function g() { return x + y; }
+print(f()); // 1
+print(g()); // 3

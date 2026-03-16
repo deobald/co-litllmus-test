@@ -1,0 +1,3 @@
+// undefined variable in spawn expression
+// ERROR: Unknown variable: ghost
+spawn ghost();

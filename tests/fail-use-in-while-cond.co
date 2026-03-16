@@ -1,0 +1,3 @@
+// undefined variable in while condition
+// ERROR: Unknown variable: nada
+while (nada < 10) { print("loop"); }

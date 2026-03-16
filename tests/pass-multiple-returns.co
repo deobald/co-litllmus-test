@@ -1,0 +1,9 @@
+// multiple return paths in a function
+function f(x) {
+  if (x == 0) { return "zero"; }
+  if (x == 1) { return "one"; }
+  return "other";
+}
+print(f(0)); // zero
+print(f(1)); // one
+print(f(2)); // other

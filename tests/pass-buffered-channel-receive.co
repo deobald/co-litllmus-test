@@ -1,0 +1,8 @@
+// buffered channel - receive takes from buffer when available
+var ch = newBufferedChannel(5);
+1 -> ch;
+2 -> ch;
+var a = <- ch;
+var b = <- ch;
+print(a); // 1
+print(b); // 2

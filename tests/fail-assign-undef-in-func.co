@@ -1,0 +1,4 @@
+// assign to undefined variable inside function body
+// ERROR: Unknown variable: bogus
+function f() { bogus = 1; }
+f();

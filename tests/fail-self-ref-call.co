@@ -1,0 +1,3 @@
+// variable references itself via function call in its own definition
+// ERROR: Unknown variable: x
+var x = print(x);

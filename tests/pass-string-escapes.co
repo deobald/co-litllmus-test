@@ -1,0 +1,5 @@
+// test string escape sequences
+print("hello\nworld"); // hello\nworld
+print("quote: \""); // quote: "
+print("backslash: \\"); // backslash: \
+print("all together: \"hello\nworld\""); // all together: "hello\nworld"

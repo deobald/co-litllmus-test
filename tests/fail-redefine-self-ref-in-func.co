@@ -1,0 +1,4 @@
+// redefine the function inside function scope
+// ERROR: Variable already defined: f
+function f() { var f = 2; }
+f();

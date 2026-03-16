@@ -1,0 +1,4 @@
+// var defined in one if block, redefined in another (same scope)
+// ERROR: Variable already defined: x
+if (true) { var x = 1; }
+if (true) { var x = 2; }

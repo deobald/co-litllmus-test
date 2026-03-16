@@ -1,0 +1,4 @@
+// undefined variable as channel in send statement
+// ERROR: Unknown variable: ghost
+var val = 1;
+val -> ghost;

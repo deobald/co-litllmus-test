@@ -1,0 +1,7 @@
+// nested function can access variables defined in outer function
+function outer() {
+  var x = 42;
+  function inner() { return x; }
+  return inner();
+}
+print(outer()); // 42

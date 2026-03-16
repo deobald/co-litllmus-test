@@ -1,0 +1,3 @@
+// nooutput
+// assigning a builtin function with var
+print = 1;

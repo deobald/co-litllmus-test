@@ -1,0 +1,3 @@
+// Immediately invoked function expression (IIFE)
+var iife = function () { return 777; }();
+print(iife); // 777

@@ -1,0 +1,3 @@
+// IIFE result assigned to var; var not in scope during lambda body
+var x = function () { return 42; }();
+print(x); // 42

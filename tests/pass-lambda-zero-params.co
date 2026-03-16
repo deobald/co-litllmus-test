@@ -1,0 +1,3 @@
+// lambda with zero parameters
+var f = function () { return 1; };
+print(f()); // 1

@@ -1,0 +1,4 @@
+// variable defined in if block is usable in subsequent while block (same scope)
+if (true) { var x = 1; }
+var i = 0;
+while (i < 1) { print(x); i = i + 1; } // 1

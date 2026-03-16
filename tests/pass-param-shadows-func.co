@@ -1,0 +1,4 @@
+// Function parameter shadows an outer function name
+function g1() { return 1; }
+function g2(g1) { return g1 + 1; }
+print(g2(2)); // 3

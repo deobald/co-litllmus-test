@@ -1,0 +1,3 @@
+// undefined variable in receive expression
+// ERROR: Unknown variable: ghost
+var bad = <- ghost;

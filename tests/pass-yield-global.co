@@ -1,0 +1,3 @@
+// Yield at global scope is valid (no scope restriction on yield)
+yield;
+print("ok"); // ok

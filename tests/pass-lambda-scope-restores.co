@@ -1,0 +1,7 @@
+// Lambda analysis restores original scope completely
+var x = 1;
+var f = function (y) {
+  var z = 2;
+  return y + z;
+};
+print(x); // 1

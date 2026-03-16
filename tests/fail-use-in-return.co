@@ -1,0 +1,4 @@
+// undefined variable in return expression inside function
+// ERROR: Unknown variable: phantom
+function f() { return phantom; }
+f();

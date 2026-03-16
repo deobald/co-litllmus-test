@@ -1,0 +1,5 @@
+// function body references a function defined later (not yet in env)
+// ERROR: Unknown variable: g
+function f() { return g(); }
+function g() { return 1; }
+f();

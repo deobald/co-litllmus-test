@@ -1,0 +1,5 @@
+// Builtin functions are pre-defined in the environment
+print("builtin print"); // builtin print
+var ch1 = newChannel();
+var ch2 = newBufferedChannel(10);
+var ms = getCurrentMillis();

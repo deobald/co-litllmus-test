@@ -1,0 +1,4 @@
+// duplicate parameter names in lambda are silently allowed
+// ERROR: Duplicate paramater names: x x
+var f = function (x, x) { return x; };
+print(f(1, 2));

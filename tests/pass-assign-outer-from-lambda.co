@@ -1,0 +1,5 @@
+// assign to outer variable from inside lambda body
+var x = 1;
+var f = function () { x = 2; };
+f();
+print(x); // 2

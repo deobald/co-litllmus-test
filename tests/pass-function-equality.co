@@ -1,0 +1,4 @@
+// equality of functions and channels - same instance should be equal? 
+// Per spec: functions and channels do not support meaningful equality (always false)
+function f() { }
+print(f == f); // false

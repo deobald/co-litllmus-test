@@ -1,0 +1,4 @@
+// undefined variable as value in send statement
+// ERROR: Unknown variable: ghost
+var ch = newChannel();
+ghost -> ch;

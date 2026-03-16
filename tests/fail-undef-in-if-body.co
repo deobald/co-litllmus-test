@@ -1,0 +1,3 @@
+// undefined variable used in if body
+// ERROR: Unknown variable: ghost
+if (true) { print(ghost); }

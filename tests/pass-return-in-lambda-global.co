@@ -1,0 +1,3 @@
+// Return inside lambda at global scope is valid (lambda sets FunctionScope)
+var f = function () { return 42; };
+print(f()); // 42

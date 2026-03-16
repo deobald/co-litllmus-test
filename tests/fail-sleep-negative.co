@@ -1,0 +1,3 @@
+// sleep with negative duration should error
+// ERROR: sleep argument is not a non-negative number: -1
+sleep(-1);

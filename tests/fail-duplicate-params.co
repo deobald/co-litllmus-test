@@ -1,0 +1,4 @@
+// duplicate parameter names are silently allowed (Set.insert deduplicates)
+// ERROR: Duplicate paramater names: x x
+function f(x, x) { return x; }
+print(f(1, 2));

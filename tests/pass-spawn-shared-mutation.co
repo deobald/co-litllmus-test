@@ -1,0 +1,6 @@
+// spawned coroutine shares mutable state with parent
+// parent can see mutations made by spawned coroutine
+var counter = 0;
+spawn function() { counter = counter + 1; }();
+while (counter == 0) { yield; }
+print(counter); // 1

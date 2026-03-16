@@ -1,0 +1,4 @@
+// Lambda parameter shadows outer variable
+var y = 1;
+var f = function (y) { return y + 1; };
+print(f(2)); // 3

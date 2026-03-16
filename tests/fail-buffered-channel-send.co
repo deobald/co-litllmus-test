@@ -1,0 +1,8 @@
+// buffered channel - send doesn't block until buffer is full
+// ERROR: Deadlock: main coroutine blocked on channel with no runnable coroutines
+var ch = newBufferedChannel(2);
+1 -> ch;
+2 -> ch;
+print("buffer full");
+3 -> ch;
+print("after 3");

@@ -1,0 +1,3 @@
+// Spawn statement with a function call
+function work() { print("spawned"); } // spawned
+spawn work();

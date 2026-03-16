@@ -1,0 +1,7 @@
+// Assigning to variables inside if/while bodies (not new scopes)
+var x = 1;
+if (true) { x = 2; }
+var y = 0;
+while (y < 1) { y = y + 1; }
+print(x); // 2
+print(y); // 1

@@ -1,0 +1,6 @@
+// Function locals do not leak after function analysis
+function f() {
+  var local = 1;
+  return local;
+}
+print(f()); // 1

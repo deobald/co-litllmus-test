@@ -1,0 +1,5 @@
+// receive expression used in a binary operation
+var ch = newChannel();
+spawn function () { 1 -> ch; }();
+var result = (<- ch) + 2;
+print(result); // 3

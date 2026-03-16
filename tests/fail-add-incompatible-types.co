@@ -1,0 +1,3 @@
+// add with incompatible types (not numbers, not strings) should error
+// ERROR: Cannot add or append: null and true
+null + true;

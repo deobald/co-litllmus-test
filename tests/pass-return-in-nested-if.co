@@ -1,0 +1,11 @@
+// return inside deeply nested if/while inside function
+function f() {
+  if (true) {
+    while (true) {
+      if (true) {
+        return 42;
+      }
+    }
+  }
+}
+print(f()); // 42

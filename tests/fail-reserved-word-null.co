@@ -1,0 +1,3 @@
+// using reserved word 'null' as variable name
+// ERROR: Reserved word cannot be used as identifier: null
+var null = 1;

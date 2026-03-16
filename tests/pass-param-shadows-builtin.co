@@ -1,0 +1,3 @@
+// function parameter shadows a builtin
+function f(print) { return print + 1; }
+print(f(1)); // 2

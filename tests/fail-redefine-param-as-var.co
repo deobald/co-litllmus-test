@@ -1,0 +1,4 @@
+// redefine function parameter as variable inside body
+// ERROR: Variable already defined: p
+function f(p) { var p = 1; }
+f(1);

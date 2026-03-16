@@ -1,0 +1,4 @@
+// assign to undefined variable inside lambda body
+// ERROR: Unknown variable: bogus
+var f = function () { bogus = 1; };
+f();

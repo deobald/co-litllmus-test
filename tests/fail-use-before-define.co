@@ -1,0 +1,4 @@
+// use variable before its definition in same scope
+// ERROR: Unknown variable: laterVar
+print(laterVar);
+var laterVar = 1;

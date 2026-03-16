@@ -1,0 +1,3 @@
+// return inside if at global scope is still global scope (if is not a scope)
+// ERROR: Cannot return from global scope
+if (true) { return 1; }

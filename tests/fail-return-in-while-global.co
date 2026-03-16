@@ -1,0 +1,3 @@
+// return inside while at global scope is still global scope (while is not a scope)
+// ERROR: Cannot return from global scope
+while (true) { return 1; }

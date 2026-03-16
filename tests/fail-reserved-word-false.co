@@ -1,0 +1,3 @@
+// using reserved word 'false' as variable name
+// ERROR: Reserved word cannot be used as identifier: false
+var false = 1;

@@ -1,0 +1,3 @@
+// buffered channel with zero capacity - behaves like unbuffered
+var ch = newBufferedChannel(0);
+print(ch); // Channel

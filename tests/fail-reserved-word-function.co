@@ -1,0 +1,3 @@
+// using reserved word 'function' as variable name
+// ERROR: Reserved word cannot be used as identifier: function
+var function = 1;

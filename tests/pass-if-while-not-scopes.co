@@ -1,0 +1,10 @@
+// if/while blocks do not create new scopes; vars defined inside are visible after
+var ifCheck = true;
+if (ifCheck) { var fromIf = 42; }
+print(fromIf); // 42
+var wc = 0;
+while (wc < 1) {
+  var fromWhile = 99;
+  wc = wc + 1;
+}
+print(fromWhile); // 99

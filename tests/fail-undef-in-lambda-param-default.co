@@ -1,0 +1,4 @@
+// undefined variable passed as argument to function call
+// ERROR: Unknown variable: bogus
+var f = function (x) { return x; };
+var result = f(bogus);

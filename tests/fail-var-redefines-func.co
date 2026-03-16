@@ -1,0 +1,4 @@
+// variable redefines an existing function name
+// ERROR: Variable already defined: defined
+function defined() { return 1; }
+var defined = 2;

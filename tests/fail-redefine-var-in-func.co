@@ -1,0 +1,5 @@
+// redefine outer variable inside function scope
+// ERROR: Variable already defined: inner
+var inner = 1;
+function f() { var inner = 2; }
+f();

@@ -1,0 +1,4 @@
+// Variable definition can reference a previously defined variable
+var base = 10;
+var derived = base + 1;
+print(derived); // 11

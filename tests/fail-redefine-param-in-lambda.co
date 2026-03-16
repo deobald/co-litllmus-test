@@ -1,0 +1,4 @@
+// redefine lambda parameter as variable inside lambda body
+// ERROR: Variable already defined: x
+var f = function (x) { var x = 1; };
+f(1);

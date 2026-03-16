@@ -1,0 +1,5 @@
+// function captures environment at definition (vars defined before, not after)
+var x = 1;
+function f() { return x; }
+var y = 2;
+print(f()); // 1

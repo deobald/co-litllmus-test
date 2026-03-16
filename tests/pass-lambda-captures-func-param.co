@@ -1,0 +1,6 @@
+// lambda inside function captures function's parameter
+function f(x) {
+  var g = function () { return x; };
+  return g();
+}
+print(f(42)); // 42

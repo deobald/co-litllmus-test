@@ -1,0 +1,10 @@
+// nooutput
+// Function parameter usable in all expression positions in body
+function f(x) {
+  var a = x + 1;
+  var b = x == 1;
+  var c = x;
+  if (x) { print(x); }
+  while (false) { print(x); }
+  return x;
+}

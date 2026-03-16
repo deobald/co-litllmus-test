@@ -1,0 +1,3 @@
+// receive from a call result expression
+// ERROR: Deadlock: main coroutine blocked on channel with no runnable coroutines
+var received = <- newChannel();

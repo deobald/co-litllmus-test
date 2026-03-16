@@ -1,0 +1,3 @@
+// string representation of boolean
+print(true); // true
+print(false); // false

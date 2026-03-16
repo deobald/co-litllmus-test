@@ -1,0 +1,6 @@
+// spawned lambda captures outer scope variables
+var x = 42;
+var ch = newChannel();
+spawn function () { x -> ch; }();
+var received = <- ch;
+print(received); // 42

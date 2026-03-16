@@ -1,0 +1,7 @@
+// use variable before its definition in function body (no hoisting)
+// ERROR: Unknown variable: later
+function f() {
+  print(later);
+  var later = 1;
+}
+f();

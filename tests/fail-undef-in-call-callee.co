@@ -1,0 +1,3 @@
+// undefined variable used as callee in call expression
+// ERROR: Unknown variable: bogus
+var x = bogus(1, 2);

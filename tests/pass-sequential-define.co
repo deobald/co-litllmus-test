@@ -1,0 +1,4 @@
+// Variables defined sequentially can reference earlier ones
+var first = 1;
+var second = first + 1;
+print(second); // 2

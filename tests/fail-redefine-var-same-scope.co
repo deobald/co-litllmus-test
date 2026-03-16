@@ -1,0 +1,4 @@
+// duplicate variable definition in same scope
+// ERROR: Variable already defined: dup
+var dup = 1;
+var dup = 2;

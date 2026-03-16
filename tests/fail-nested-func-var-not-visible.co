@@ -1,0 +1,7 @@
+// var defined inside nested function is not visible in outer function
+// ERROR: Unknown variable: inner
+function outer() {
+  function nested() { var inner = 1; }
+  return inner;
+}
+outer();

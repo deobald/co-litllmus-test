@@ -1,0 +1,3 @@
+// undefined variable inside nested call arguments
+// ERROR: Unknown variable: ghost
+print(print(ghost));

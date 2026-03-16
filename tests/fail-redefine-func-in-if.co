@@ -1,0 +1,4 @@
+// redefine function inside if block (if is not a scope)
+// ERROR: Variable already defined: f
+function f() { return 1; }
+if (true) { function f() { return 2; } }

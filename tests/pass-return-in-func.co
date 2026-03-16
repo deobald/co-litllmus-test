@@ -1,0 +1,12 @@
+// Return statements inside functions and lambdas (not global scope)
+function ret1() { return 1; }
+function ret2() {
+  function ret3() { return 2; }
+  return ret3();
+}
+var ret4 = function () { return 3; };
+function ret5() { return; }
+print(ret1()); // 1
+print(ret2()); // 2
+print(ret4()); // 3
+print(ret5()); // null

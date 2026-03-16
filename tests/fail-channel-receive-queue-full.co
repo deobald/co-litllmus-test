@@ -1,0 +1,9 @@
+// receiving from an empty channel when receive queue is full (more than 4 pending receivers)
+// ERROR: Channel receive queue is full
+var ch = newChannel();
+spawn function() { var x = <- ch; }();
+spawn function() { var x = <- ch; }();
+spawn function() { var x = <- ch; }();
+spawn function() { var x = <- ch; }();
+spawn function() { var x = <- ch; }();
+yield;

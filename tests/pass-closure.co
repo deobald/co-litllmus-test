@@ -1,0 +1,6 @@
+// Closure captures outer function parameter
+function makeAdder(n) {
+  return function (m) { return n + m; };
+}
+var add5 = makeAdder(5);
+print(add5(3)); // 8

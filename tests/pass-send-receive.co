@@ -1,0 +1,5 @@
+// Channel send and receive expressions
+var ch = newChannel();
+spawn function () { 42 -> ch; }();
+var received = <- ch;
+print(received); // 42

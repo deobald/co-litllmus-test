@@ -1,0 +1,7 @@
+// var defined inside if block in function used in subsequent statement
+function f() {
+  if (true) { var x = 1; }
+  var y = x + 1;
+  return y;
+}
+print(f()); // 2

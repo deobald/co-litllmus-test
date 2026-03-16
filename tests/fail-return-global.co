@@ -1,0 +1,3 @@
+// return with value at global scope
+// ERROR: Cannot return from global scope
+return 42;

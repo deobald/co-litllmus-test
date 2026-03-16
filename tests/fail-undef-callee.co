@@ -1,0 +1,3 @@
+// calling an undefined function
+// ERROR: Unknown variable: notDefined
+notDefined();

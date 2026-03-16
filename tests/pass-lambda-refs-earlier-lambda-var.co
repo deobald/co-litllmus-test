@@ -1,0 +1,4 @@
+// lambda referencing a var that holds another lambda defined earlier
+var f = function () { return 1; };
+var g = function () { return f(); };
+print(g()); // 1

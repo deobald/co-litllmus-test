@@ -1,0 +1,7 @@
+// function defined inside another function is not visible outside
+// ERROR: Unknown variable: inner
+function outer() {
+  function inner() { return 1; }
+  return inner();
+}
+inner();

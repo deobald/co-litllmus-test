@@ -1,0 +1,6 @@
+// return after inner function definition (scope type is still FunctionScope)
+function outer() {
+  function inner() { return 1; }
+  return inner();
+}
+print(outer()); // 1

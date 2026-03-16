@@ -1,0 +1,4 @@
+// undefined variable in assignment right-hand side
+// ERROR: Unknown variable: bogus
+var x = 1;
+x = bogus + 1;

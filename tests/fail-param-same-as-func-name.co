@@ -1,0 +1,4 @@
+// function parameter has same name as the function itself
+// ERROR: Function name same as parameter name: f
+function f(f) { return f + 1; }
+print(f(1));

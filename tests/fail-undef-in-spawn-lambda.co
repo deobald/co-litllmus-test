@@ -1,0 +1,3 @@
+// undefined variable used in spawned lambda
+// ERROR: Unknown variable: ghost
+spawn function () { print(ghost); }();

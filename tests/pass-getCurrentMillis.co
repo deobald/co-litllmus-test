@@ -1,0 +1,6 @@
+// getCurrentMillis returns current time in milliseconds
+var t1 = getCurrentMillis();
+sleep(50);
+var t2 = getCurrentMillis();
+var diff = t2 - t1;
+print(diff > 40); // true

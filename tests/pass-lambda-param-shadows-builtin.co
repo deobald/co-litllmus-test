@@ -1,0 +1,3 @@
+// lambda parameter shadows a builtin
+var f = function (print) { return print + 1; };
+print(f(1)); // 2

@@ -1,0 +1,3 @@
+// undefined variable in binary expression
+// ERROR: Unknown variable: missing
+var bad = 1 + missing;

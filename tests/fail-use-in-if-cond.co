@@ -1,0 +1,3 @@
+// undefined variable in if condition
+// ERROR: Unknown variable: nope
+if (nope == 1) { print("hi"); }

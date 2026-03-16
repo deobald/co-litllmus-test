@@ -1,0 +1,5 @@
+// redefine outer variable inside lambda scope
+// ERROR: Variable already defined: inner
+var inner = 1;
+var f = function () { var inner = 2; };
+f();

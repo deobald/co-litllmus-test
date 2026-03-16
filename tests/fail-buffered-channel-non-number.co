@@ -1,0 +1,3 @@
+// newBufferedChannel with non-number argument should error
+// ERROR: newBufferedChannel argument is not a non-negative number: "5"
+var ch = newBufferedChannel("5");

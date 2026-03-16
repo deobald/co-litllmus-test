@@ -1,0 +1,5 @@
+// spawn with a complex call expression
+function makeWorker() {
+  return function () { print("working"); }; // working
+}
+spawn makeWorker()();

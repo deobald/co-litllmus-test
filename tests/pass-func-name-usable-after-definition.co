@@ -1,0 +1,4 @@
+// function name is usable as a variable after its definition
+function f() { return 1; }
+var g = f;
+print(g()); // 1

@@ -1,0 +1,6 @@
+// assign outer variable passed via param inside function scope
+var inner = 1;
+function f(i) { i = 2; }
+function g() { return inner; }
+f(g());
+print(inner); // 1

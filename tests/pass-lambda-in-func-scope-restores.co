@@ -1,0 +1,7 @@
+// lambda inside function body does not disrupt function scope
+function f() {
+  var x = 1;
+  var g = function () { var y = 2; };
+  return x;
+}
+print(f()); // 1

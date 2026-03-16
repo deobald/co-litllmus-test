@@ -1,0 +1,5 @@
+// integer division truncates toward negative infinity
+print(7 / 2); // 3
+print(-7 / 2); // -4
+print(7 / -2); // -4
+print(-7 / -2); // 3

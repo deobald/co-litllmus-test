@@ -1,0 +1,9 @@
+// sending to an unbuffered channel when send queue is full (more than 4 pending senders)
+// ERROR: Channel send queue is full
+var ch = newChannel();
+spawn function() { 1 -> ch; }();
+spawn function() { 2 -> ch; }();
+spawn function() { 3 -> ch; }();
+spawn function() { 4 -> ch; }();
+spawn function() { 5 -> ch; }();
+yield;

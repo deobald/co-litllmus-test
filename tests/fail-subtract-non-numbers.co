@@ -1,0 +1,3 @@
+// subtract with non-numbers should error
+// ERROR: Cannot subtract non-numbers: hello and 1
+"hello" - 1;

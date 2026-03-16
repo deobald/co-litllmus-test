@@ -1,0 +1,8 @@
+// Nested lambda parameters can each shadow the same outer variable
+var outer = 10;
+var f = function (outer) {
+  return function (outer) {
+    return outer;
+  };
+};
+print(f(1)(2)); // 2

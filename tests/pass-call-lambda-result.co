@@ -1,0 +1,5 @@
+// call the result of another call (higher-order function returning function)
+function makeAdder(x) {
+  return function (y) { return x + y; };
+}
+print(makeAdder(1)(2)); // 3

@@ -1,0 +1,4 @@
+// variable references itself inside lambda in its own definition
+// ERROR: Unknown variable: x
+var x = function () { return x; };
+x();

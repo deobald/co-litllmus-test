@@ -1,0 +1,5 @@
+// function redefined in inner scope where name exists in outer
+// ERROR: Variable already defined: f
+function f() { return 1; }
+function g() { function f() { return 2; } }
+g();

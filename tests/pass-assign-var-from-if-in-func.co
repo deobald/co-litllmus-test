@@ -1,0 +1,7 @@
+// assign to a variable defined in an earlier if block within same function
+function f() {
+  if (true) { var x = 1; }
+  x = 2;
+  return x;
+}
+print(f()); // 2

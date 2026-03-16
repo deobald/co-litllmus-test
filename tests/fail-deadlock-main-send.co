@@ -1,0 +1,4 @@
+// main coroutine blocked on send with no runnable coroutines
+// ERROR: Deadlock: main coroutine blocked on channel with no runnable coroutines
+var ch = newChannel();
+1 -> ch;

@@ -1,0 +1,7 @@
+// function defined inside while block is visible after (while is not a scope)
+var i = 0;
+while (i < 2) {
+  function f() { return i; }
+  i = i + 1;
+}
+print(f()); // 2

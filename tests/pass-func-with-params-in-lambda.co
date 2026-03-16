@@ -1,0 +1,6 @@
+// Function with parameters declared inside a lambda body
+var f = function () {
+  function add(a, b) { return a + b; }
+  return add(1, 2);
+};
+print(f()); // 3

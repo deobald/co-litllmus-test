@@ -1,0 +1,4 @@
+// assigning a function with var
+function x() {}
+x = 1;
+print(x); // 1

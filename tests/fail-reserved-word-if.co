@@ -1,0 +1,3 @@
+// using reserved word 'if' as variable name
+// ERROR: Reserved word cannot be used as identifier: if
+var if = 1;

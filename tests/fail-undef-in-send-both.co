@@ -1,0 +1,3 @@
+// undefined variable in send value (analyzed first, before channel)
+// ERROR: Unknown variable: ghostCh
+ghostVal -> ghostCh;

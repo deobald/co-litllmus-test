@@ -1,0 +1,3 @@
+// undefined variable used in while body
+// ERROR: Unknown variable: ghost
+while (true) { print(ghost); }

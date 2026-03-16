@@ -1,0 +1,3 @@
+// string representation of a named function
+function foo() { }
+print(foo); // function foo

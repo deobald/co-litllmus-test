@@ -1,0 +1,3 @@
+// using reserved word 'spawn' as variable name
+// ERROR: Reserved word cannot be used as identifier: spawn
+var spawn = 1;

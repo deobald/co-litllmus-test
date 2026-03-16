@@ -1,0 +1,17 @@
+// Mutual recursion via outer scope variable assignment
+var isEvenFn = null;
+var isOddFn = null;
+function isEven(n) {
+  if (n == 0) { return true; }
+  return isOddFn(n - 1);
+}
+function isOdd(n) {
+  if (n == 0) { return false; }
+  return isEvenFn(n - 1);
+}
+isEvenFn = isEven;
+isOddFn = isOdd;
+print(isEven(4)); // true
+print(isEven(3)); // false
+print(isOdd(4)); // false
+print(isOdd(3)); // true

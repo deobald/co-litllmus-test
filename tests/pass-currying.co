@@ -1,0 +1,9 @@
+// Currying via nested lambdas with closures
+var curry = function (x) {
+  return function (y) {
+    return function (z) {
+      return x + y + z;
+    };
+  };
+};
+print(curry(1)(2)(3)); // 6

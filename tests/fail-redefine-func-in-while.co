@@ -1,0 +1,8 @@
+// redefine function inside while block (while is not a scope)
+// ERROR: Variable already defined: f
+function f() { return 1; }
+var x = 0;
+while (x < 1) {
+  function f() { return 2; }
+  x = x + 1;
+}

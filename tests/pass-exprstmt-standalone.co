@@ -1,0 +1,5 @@
+// various expression statements (not assigned to var)
+print(1 + 2); // 3
+print("hello"); // hello
+print(null); // null
+print(true); // true

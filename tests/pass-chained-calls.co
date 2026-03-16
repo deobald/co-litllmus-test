@@ -1,0 +1,3 @@
+// Chained/nested function calls
+function id(v) { return v; }
+print(id(id(id(1)))); // 1

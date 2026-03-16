@@ -1,0 +1,23 @@
+// All binary operators with valid operand types
+var n1 = 1 + 2;
+var s1 = "hello" + " " + "world";
+var n2 = 10 - 3;
+var n3 = 2 * 3;
+var n4 = 10 / 2;
+var b1 = 1 == 1;
+var b2 = "a" == "a";
+var b3 = null == null;
+var b4 = 1 != 2;
+var b5 = 1 < 2;
+var b6 = 2 > 1;
+print(n1); // 3
+print(s1); // hello world
+print(n2); // 7
+print(n3); // 6
+print(n4); // 5
+print(b1); // true
+print(b2); // true
+print(b3); // true
+print(b4); // true
+print(b5); // true
+print(b6); // true

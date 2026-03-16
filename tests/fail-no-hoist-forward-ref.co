@@ -1,0 +1,7 @@
+// forward reference to variable defined later in same function
+// ERROR: Unknown variable: b
+function f() {
+  var a = b;
+  var b = 1;
+}
+f();

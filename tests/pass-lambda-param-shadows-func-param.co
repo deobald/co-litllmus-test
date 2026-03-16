@@ -1,0 +1,6 @@
+// lambda parameter shadows enclosing function's parameter
+function f(x) {
+  var g = function (x) { return x + 1; };
+  return g(x);
+}
+print(f(10)); // 11

@@ -1,0 +1,6 @@
+// Function statement inside a lambda body
+var f = function () {
+  function inner() { return 1; }
+  return inner();
+};
+print(f()); // 1

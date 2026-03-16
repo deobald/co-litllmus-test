@@ -1,0 +1,5 @@
+// Same local variable name in different function scopes
+function scope1() { var local = 1; return local; }
+function scope2() { var local = 2; return local; }
+print(scope1()); // 1
+print(scope2()); // 2

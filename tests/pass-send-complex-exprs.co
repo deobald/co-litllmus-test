@@ -1,0 +1,7 @@
+// send with complex value expressions
+var ch = newChannel();
+spawn function () {
+  (1 + 2) -> ch;
+}();
+var received = <- ch;
+print(received); // 3

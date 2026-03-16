@@ -1,0 +1,3 @@
+// function with empty body
+function f() {}
+print(f()); // null

@@ -1,0 +1,4 @@
+// variable from lambda scope is not visible outside
+// ERROR: Unknown variable: leaked
+var f = function () { var leaked = 1; };
+print(leaked);

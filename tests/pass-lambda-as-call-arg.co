@@ -1,0 +1,3 @@
+// lambda passed as argument to a function call
+function apply(f) { return f(); }
+print(apply(function () { return 42; })); // 42

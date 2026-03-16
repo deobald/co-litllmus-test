@@ -1,0 +1,4 @@
+// function name conflicts with an existing variable
+// ERROR: Variable already defined: taken
+var taken = 1;
+function taken() { return 2; }

@@ -1,0 +1,3 @@
+// sleep with non-number argument should error
+// ERROR: sleep argument is not a non-negative number: "10"
+sleep("10");

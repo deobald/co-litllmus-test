@@ -1,0 +1,6 @@
+// Yield statement inside a function
+function yielder() {
+  yield;
+  return 1;
+}
+print(yielder()); // 1

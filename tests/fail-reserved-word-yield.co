@@ -1,0 +1,3 @@
+// using reserved word 'yield' as variable name
+// ERROR: Reserved word cannot be used as identifier: yield
+var yield = 1;

@@ -1,0 +1,4 @@
+// redefine function name as function inside its own body
+// ERROR: Variable already defined: f
+function f() { function f() {} }
+f();

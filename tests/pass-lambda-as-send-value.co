@@ -1,0 +1,7 @@
+// lambda call result used as send value
+var ch = newChannel();
+spawn function () {
+  function () { return 42; }() -> ch;
+}();
+var received = <- ch;
+print(received); // 42

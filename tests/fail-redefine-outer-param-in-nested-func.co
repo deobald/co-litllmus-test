@@ -1,0 +1,7 @@
+// var in nested function redefines outer function's parameter
+// ERROR: Variable already defined: x
+function f(x) {
+  function g() { var x = 1; }
+  g();
+}
+f(1);

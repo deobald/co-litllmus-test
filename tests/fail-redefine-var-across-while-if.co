@@ -1,0 +1,5 @@
+// var defined in while block, redefined in subsequent if block (same scope)
+// ERROR: Variable already defined: x
+var n = 0;
+while (n < 1) { var x = 1; n = n + 1; }
+if (true) { var x = 2; }

@@ -1,0 +1,4 @@
+// variable from function scope is not visible outside
+// ERROR: Unknown variable: leaked
+function f() { var leaked = 1; }
+print(leaked);

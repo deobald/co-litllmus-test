@@ -1,0 +1,3 @@
+// expression statement with a function call (not assigned to var)
+function f() { return 1; }
+print(f()); // 1

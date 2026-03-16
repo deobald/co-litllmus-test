@@ -1,0 +1,4 @@
+// redefine variable inside if block (if is not a new scope)
+// ERROR: Variable already defined: x
+var x = 1;
+if (true) { var x = 2; }

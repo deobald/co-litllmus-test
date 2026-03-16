@@ -1,0 +1,3 @@
+// sleep with zero duration - should return immediately
+sleep(0);
+print("ok"); // ok

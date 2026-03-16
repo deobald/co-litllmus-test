@@ -1,0 +1,3 @@
+// function without return returns null implicitly
+function f() { }
+print(f()); // null

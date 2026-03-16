@@ -1,0 +1,10 @@
+// Nested lambdas each with their own scope and closure
+var f = function () {
+  var a = 1;
+  var g = function () {
+    var b = 2;
+    return a + b;
+  };
+  return g();
+};
+print(f()); // 3

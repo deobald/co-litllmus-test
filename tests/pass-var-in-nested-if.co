@@ -1,0 +1,10 @@
+// Variable defined in nested if blocks is visible in enclosing function scope
+function f() {
+  if (true) {
+    if (true) {
+      var deep = 99;
+    }
+  }
+  return deep;
+}
+print(f()); // 99

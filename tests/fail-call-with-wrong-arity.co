@@ -1,0 +1,5 @@
+// arity mismatch
+// ERROR: f called with wrong number of arguments: got 1, expected 2
+function f(a, b) { return a + b; }
+f(1);
+f(1, 2, 3);

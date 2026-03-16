@@ -1,0 +1,5 @@
+// function body references global variable defined after the function
+// ERROR: Unknown variable: laterGlobal
+function f() { return laterGlobal; }
+var laterGlobal = 1;
+f();

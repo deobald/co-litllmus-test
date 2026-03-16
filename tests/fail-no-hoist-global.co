@@ -1,0 +1,4 @@
+// use variable before its definition at global scope (no hoisting)
+// ERROR: Unknown variable: hoisted
+print(hoisted);
+var hoisted = 1;

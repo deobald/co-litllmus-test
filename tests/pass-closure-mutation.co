@@ -1,0 +1,11 @@
+// Closure captures and mutates outer variable
+function makeCounter(name) {
+  var count = 0;
+  return function () {
+    count = count + 1;
+    print(name + " = " + count); // a = 1;a = 2
+  };
+}
+var c1 = makeCounter("a");
+c1();
+c1();

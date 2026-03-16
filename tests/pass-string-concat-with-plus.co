@@ -1,0 +1,3 @@
+// string concatenation with plus operator (interpreter coerces non-strings)
+var s = "hello" + " " + "world";
+print(s); // hello world

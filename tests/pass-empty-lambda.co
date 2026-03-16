@@ -1,0 +1,3 @@
+// lambda with empty body
+var f = function () {};
+print(f()); // null

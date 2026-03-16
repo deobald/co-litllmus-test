@@ -1,0 +1,7 @@
+// string coercion - + with non-string operands converts them to strings
+print("a" + 1); // a1
+print("b" + true); // btrue
+print("c" + null); // cnull
+print(1 + "d"); // 1d
+print(true + "e"); // truee
+print(null + "f"); // nullf

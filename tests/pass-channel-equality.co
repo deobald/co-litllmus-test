@@ -1,0 +1,4 @@
+// equality of channels - same instance should be equal?
+// Per spec: functions and channels do not support meaningful equality (always false)
+var ch = newChannel();
+print(ch == ch); // false

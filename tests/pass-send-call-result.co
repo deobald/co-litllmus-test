@@ -1,0 +1,3 @@
+// send a call result to a channel
+var ch = newChannel();
+spawn function () { print("test") -> ch; }(); // test

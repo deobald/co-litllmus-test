@@ -1,0 +1,3 @@
+// using reserved word 'var' as variable name
+// ERROR: Reserved word cannot be used as identifier: var
+var var = 1;

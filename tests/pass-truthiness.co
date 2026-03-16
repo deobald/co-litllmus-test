@@ -1,0 +1,9 @@
+// Null and false are falsy; everything else is truthy
+if (null) { print("no"); }
+if (false) { print("no"); }
+if (true) { print("yes"); } // yes
+if (1) { print("yes"); } // yes
+if (0) { print("yes"); } // yes
+if ("hello") { print("yes"); } // yes
+if ("") { print("yes"); } // yes
+if (print) { print("yes"); } // yes

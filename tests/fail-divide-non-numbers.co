@@ -1,0 +1,3 @@
+// divide with non-numbers should error
+// ERROR: Cannot divide non-numbers: hello and 2
+"hello" / 2;
