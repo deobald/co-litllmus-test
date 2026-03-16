@@ -2,10 +2,18 @@
 
 Read this entire document before attempting the prompt.
 
+## Note For Humans
+
+Type this into your prompt: `Read @README.md and attempt a solution.` 
+
 ## LLM Challenge Measurement
 
 This repository challenges an LLM to implement Abhinav Sarkar's `Co` programming language.
 The prompt is found after this measurement section. The original `Co` specification README follows the prompt.
+
+Ask the user any questions you have before you start, but after your initial questions are answered, 
+don't interrupt yourself until you succeed or fail at the task. 
+Go and Haskell are available through Mise in this directory.
 
 For any given attempt to solve the challenge:
 
@@ -20,6 +28,9 @@ For any given attempt to solve the challenge:
    [benchmark]
    start = {ISO_8601_TIMESTAMP}
    end = {ISO_8601_TIMESTAMP}
+
+   [thinking]
+   transcript = "transcript.jsonl"
    ```
 3. Document your planning and process as you go, with Markdown file(s) in the 'attempt' directory.
    Do not edit historical documentation. It acts as a record of the attempt.
@@ -30,6 +41,11 @@ For any given attempt to solve the challenge:
 7. If/when all the tests are passing, mark the `end` in the TOML file with the current UTC date/time and switch the `outcome` to "success".
 8. Give yourself plenty of time. Your attempt may take multiple hours. 
    However, if you have decided you cannot complete the challenge, mark the `end` in the TOML file and leave `outcome = "failure"`.
+9. When you finish, whether you pass or fail, copy the transcript for this session verbatim from the LLM/agent "projects" directory 
+   into the 'attempt' directory. In Claude Code's case, this is a JSONL file in `~/.claude/projects/`. 
+   Other LLMs should have a similar record of session transcripts that can be read programmatically.
+   Make note of the transcript file(s)/directory in the summary TOML: `transcript = {TRANSCRIPT_FILE_OR_DIRECTORY}`
+10. Add an entry to `.gitignore` that prevents the compiled binary from being committed to git, unless an entry already matches it
 
 ## LLM Challenge Prompt
 

@@ -5,3 +5,6 @@ cheat = "no"
 [benchmark]
 start = 2026-03-16T16:22:46Z
 end = 2026-03-16T16:36:14Z
+
+[thinking]
+transcript = "transcript.jsonl"
