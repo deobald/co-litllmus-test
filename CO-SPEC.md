@@ -4,7 +4,7 @@ title: Co Language Specification
 
 # 0. Introduction
 
-Co is a dynamically-typed, imperative programming language with first-class functions, cooperative coroutines, and channel-based concurrency.
+Co is a garbage-collected, dynamically-typed, imperative programming language with first-class functions, cooperative coroutines, and channel-based concurrency.
 
 This document specifies the complete semantics of Co. The language is designed to be minimal yet expressive, with a straightforward implementation. It draws inspiration from languages like JavaScript, and Go, while maintaining a distinct identity focused on simplicity and coroutine-based concurrency.
 
@@ -551,6 +551,7 @@ All errors in Co are detected and raised at run-time. The following errors are r
 | `Cannot divide non-numbers: <l> and <r>`       | `/` with non-numeric operands.                            |
 | `Cannot multiply non-numbers: <l> and <r>`     | `*` with non-numeric operands.                            |
 | `Cannot compare non-numbers: <l> and <r>`      | `<` or `>` with non-numeric operands.                |
+| `Division by zero`                             | Division by zero                                               |
 | `sleep argument is not a non-negative number: <val>` | `sleep` called with a non-numeric or negative argument. |
 | `newBufferedChannel argument is not a non-negative number: <val>` | `newBufferedChannel` called with a non-numeric or negative argument. |
 | `Cannot call a non-function: <expr> is <val>`  | Call expression on a non-function value.                       |
