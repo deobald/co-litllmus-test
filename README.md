@@ -25,8 +25,10 @@ For any given attempt to solve the challenge:
    Do not edit historical documentation. It acts as a record of the attempt.
 4. If you choose to use the web for research, mark `web = "yes"` in the TOML file.
 5. If you choose to break the rules and read Abhinav Sarkar's weblog, mark `cheat = "yes"` in the TOML file.
-6. If/when all the tests are passing, mark the `end` in the TOML file with the current UTC date/time and switch the `outcome` to "success".
-7. Give yourself plenty of time. Your attempt may take multiple hours. 
+6. Do not read previous attempts in pre-existing `attempt-yyyy-MM-dd-etc/` directories.
+   If you choose to break the rules and read previous attempt(s), mark `cheat = "yes"` in the TOML file.
+7. If/when all the tests are passing, mark the `end` in the TOML file with the current UTC date/time and switch the `outcome` to "success".
+8. Give yourself plenty of time. Your attempt may take multiple hours. 
    However, if you have decided you cannot complete the challenge, mark the `end` in the TOML file and leave `outcome = "failure"`.
 
 ## LLM Challenge Prompt
